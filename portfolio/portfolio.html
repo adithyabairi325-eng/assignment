@@ -1,53 +1,96 @@
-<html>
+﻿<html>
+
 <head>
     <title>My Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
 </head>
+
 <body>
 
-
-<div class="header">
-    <div class="logo">
-        <h1>PORTFOLIO</h1>
-    </div>
-    <div class="menu">
-        <span class="menu-item">About Me</span>
-        <span class="menu-item">Projects</span>
-        <span class="menu-item">Contact</span>
-    </div>
-</div>
-
-
-<div class="main">
-    
-    
-    <div class="profile-section">
-        <img src="https://via.placeholder.com/150" class="profile-pic">
-        <div class="profile-info">
-            <h2>Bairy Adithya Vardhan</h2>
-            <p class="subtitle">Student at Griet</p>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <h1>PORTFOLIO</h1>
+            </a>
+        </div>
+        <div class="menu">
+            <a href="#about" class="menu-item">About Me</a>
+            <a href="projects.html" class="menu-item">Projects</a>
+            <a href="contact.html" class="menu-item">Contact</a>
         </div>
     </div>
 
-    <br><br>
 
-    <h3>About Me</h3>
-    <p class="italic-text">I'm a first-year BTech student in Computer Science & AI/ML at GRIEIT, passionate about turning code into real-world solutions . As an aspiring AI enthusiast, I bridge classroom learning in C/Python with practical builds like management systems, always optimizing for clean, efficient code.</p>
+    <div class="main">
 
-    <br><br>
 
-    
-    <h3>Projects</h3>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
+        <div id="about">
+            <div class="profile-section">
+                <img src="me.jpg" class="profile-pic">
+                <div class="profile-info">
+                    <h2>Bairy Adithya Vardhan</h2>
+                    <p class="subtitle">Student at Griet</p>
+                </div>
+            </div>
 
-    <br><br><br>
+            <br><br>
 
-    <h3>Contact : <span class="contact-padding">+91 XXXXXXXXXX</span></h3>
+            <h3>About Me</h3>
+            <p class="italic-text">I am a first-year BTech student at GRIEIT, specializing in Computer Science with a
+                focus
+                on Artificial Intelligence and Machine Learning.
+                My academic journey began with a fascination for how code can be transformed into real-world solutions.
+                Every lecture and lab session fuels my curiosity to bridge theory with practical applications.
+                I see programming not just as syntax and logic, but as a powerful tool to solve human problems.
+                C and Python are my primary languages of exploration, and I enjoy experimenting with their versatility.
+                Through these languages, I have built small but impactful systems that reflect my learning.
+                One of my proudest achievements is developing management systems that streamline everyday tasks.
+                These projects taught me the importance of clean, efficient, and optimized code.
+                I believe that efficiency in code mirrors efficiency in thought.
+                Optimization is not just about speed, but also about clarity and maintainability.
+                As an aspiring AI enthusiast, I constantly seek opportunities to apply algorithms to practical builds.
+                Machine learning excites me because it allows systems to learn and adapt like humans.
+            </p>
+        </div>
 
-</div>
+          <div id="projects">
+            <h3>Projects</h3>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+         <div id="contact">
+            <h3>Message Me</h3>
+            <form>
+                <input type="email" placeholder="Your Email" class="input-field">
+                <br>
+                <textarea placeholder="Your Message" class="message-box"></textarea>
+                <br>
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+        </div>
+
+    </div>
 
 </body>
+
 </html>
